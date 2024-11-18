@@ -50,6 +50,7 @@ $ ng new //now the cli will ask you to name of your project
 
 ![Alt text](image1.png)
 
+![alt](https://file-hosting.dashnexpages.net/marketingstrategy/codeinjar/assets/images/angular/create-your-first-angular-application/image1.png)
 
 6. After creating your first angular application (remember the location and name of your project), open it in your favourite ide, in my case I use Visual Studio (VS code)
 

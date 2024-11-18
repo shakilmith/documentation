@@ -2,13 +2,13 @@
 
 Here we will use create-react-app, a react toolchain to build react application.
 
-Note: At the end of this tutorial post, we also see, how to build a react application without using any toolchain.
+**Note:** At the end of this tutorial post, we also see, how to build a react application without using any toolchain.
 
 ## Basic Requirements:
 
-Nodejs: Latest version or at least 14+
-NPM: v6 (but nodejs latest version includes npm package manager).
-An IDE: Use your favorite ide like VS code.
+- Nodejs: Latest version or at least 14+
+- NPM: v6 (but nodejs latest version includes npm package manager).
+- An IDE: Use your favorite ide like VS code.
 
 Let's follow the below steps to create our first reactjs powered application.
 
@@ -71,7 +71,7 @@ function App() {
 export default App;
 ```
 
-Now if you open localhost:3000 you see a simple Hello World message.
+Now if you open [localhost:3000](localhost:3000) you see a simple Hello World message.
 
 ![alt text](image3.png)
 
