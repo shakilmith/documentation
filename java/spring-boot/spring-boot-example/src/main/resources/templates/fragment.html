@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thymeleaf Fragment Expression</title>
+</head>
+<body>
+<div th:replace="~{header.html :: header}">Header Content...</div> <!--header.html (you can skip .html too) is th file name and header is the name of the fragment-->
+
+<div>
+    <p>
+        Thymeleaf Fragment expression is used to create reusable code blocks or sections that can be used across the template files without redefining them. Making a standard layout system of the application, fragment expression plays a vital role. Such as in reactJS (As I am basically a frontend developer rest of the day) we define components and use them across the application when they are required, some of them are static like header or footer of the application and some of them are dynamic such as blogPost or review components of the application.
+    </p>
+</div>
+
+<div th:replace="~{footer.html :: footer}">Footer Content...</div> <!--footer.html (you can skip .html too) is th file name and footer is the name of the fragment-->
+</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>title</title>
+</head>
+<body>
+<h1>Hello, {title}!</h1>
+<div>
+    <ul>
+        {#for name in languages}
+        <li>{name}</li> <!--if object type or hashes: product.name, product.price etc.-->
+        {/for} <!--end can be written without for keyword-->
+    </ul>
+</div>
+</body>
+</html>
