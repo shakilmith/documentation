@@ -1,16 +1,18 @@
 # Conditionally Render Elements or Components in React
 
-In this tutorial post we are going to see how to render simple elements or components (functions) conditionally in react. In react we can use all valid javaScript conditional statements like if, else if, switch or ternary operator. Additionally we can explore how to use logical and (&&), logical or (||) and logical not (!) operators.
+In this tutorial post we are going to see how to render simple elements or components (functions) conditionally in react. In react we can use all valid JavaScript conditional statements like if, else if, switch or ternary operator. Additionally we can explore how to use logical and (&&), logical or (||) and logical not (!) operators.
 
-## Using If, Else If and else Statement
+## Using If, Else If and Else Statement
 
 **Terminology:**
 
-If: Check certain condition and code block will render or execute when it is true. <br/>
-Else If: Implement extra condition, it will only execute when the if condition becomes false. <br/>
-Else: When the if, else if condition become false it will render. We can use merely if, else statement that else if statement. <br/>
+**If Statement:** Check certain conditions and code block will render or execute when it is true. 
 
-Let's implement the above scenario in our sample react application.
+**Else If Statement:** Implement extra condition, it will only execute when the if condition becomes false.
+
+**Else Statement:** When the if, else if condition become false it will render. We can use merely if, else statement than else if statement, even if statement without optional else statement.
+
+Here, I have provided a simple example to explain the above scenario. Such as,
 
 **app.js**
 
@@ -117,7 +119,7 @@ switch(expression){
 }
 ```
 
-Here, the switch expression will evaluate only once then match with each case block. If any match found, it breaks the loop and stop execution. Break statement is important to stop the loop. The default statement will always execute when none match found with the switch expression.
+Here, the switch expression will evaluate only once then match with each case block. If any match found, it breaks the loop and stop execution. Break statement is important to stop the loop. The default statement will always execute when none match found with the switch expression. But remember, switch statement is slow than if, else-if statement.
 
 Let's render the weekday based on the week number (starts from 0 to 6)
 
@@ -175,9 +177,9 @@ Hope it make sense, when to use switch and else if statement. It is possible to 
 
 ## Using Ternary operator.
 
-We can simple replace our (if / else) block using the shorthand ternary operator.
+We can simply replace our (if / else) block using the shorthand ternary operator. Basically, ternary operator or expression means a single if and else statement.
 
-Syntax:
+**Syntax**
 
 ```
 condition ? <true expression>: <false expression> //in other words
@@ -197,11 +199,11 @@ Output:
 
 ![alt text](image5.png)
 
-The second expression has been evaluated as the first expression doesn't match with the expression.
+The second expression has been evaluated as the first expression does not match with the expression.
 
 ## Using Logical && Expression in React
 
-In react, we can combine logical && (and) and logical || (or) with if, else if condition, to make complex logic. Hence, there are other uses of logical && in jsx. We can render certain code block (after && operator) using the logical && when only the condition (using in the left side) is true. Such as,
+In react, we can combine logical && (and) and logical || (or) with if, else-if condition, to make complex logic. Hence, there are other uses of logical && in jsx. We can render certain code block (after && operator) using the logical && when only the condition (using in the left side) is true. Such as,
 
 **app.js**
 
@@ -234,7 +236,7 @@ const App=()=>{
 export default App;
 ```
 
-After && operator, code block only render when the planets array contains more than 0 elements. 
+After ***&&*** operator, code block only render when the planets array contains more than 0 elements. If the condition is true then the right side of && operator will be rendered.
 
 ![alt text](image6.png)
 
@@ -245,8 +247,6 @@ You get output now like the below, isn't it?
 ![alt text](image7.png)
 
 
-Note: React doesn't provide built in if, else, else if or for looping conditions to write inside our jsx syntax like angular or vuejs. Thus, you can only write these expressions only outside the return statement or inside {} curly brackets. where javaScript syntax can be written. 
+**Note:** React does not provide built in if, else, else if or for looping conditions to write inside our jsx syntax like Angular or VueJS. Thus, you can only write these expressions only outside the return statement or inside {} curly brackets. where JavaScript syntaxes are valid or can be written. 
 
-
-Thanks for reading this article.
 

@@ -2,7 +2,7 @@
 
 Hooks are a new addition in React 16.8 version. They help developers to use state and other React lifecycle features in a functional way without writing class components. 
 
-In this post, I am going to describe about React **useState()** hook with examples. In React, we use useState() hook (that is considered as built in function) in order to manage states or variables in functional components. the useState() hook always returns an array of two elements (the syntax of writing hook). The current state variable and a function to update it (mandatory). Let's see how to write useState hook in a React functional component. 
+In this post, I am going to describe about React **useState()** hook with examples. In React, we use ***useState()*** hook (that is considered as built in function) in order to manage states or variables in functional components. The useState() hook always returns an array of two elements (the syntax of writing hook). The first one is state variable and the second one is a function to update it. Let's see how to write useState() hook in a React functional component. 
 
 
 **Syntax of React useState() Hook**
@@ -31,7 +31,7 @@ function YourFunction(){
 }
 ```
 
-Note: Before, using useState hook in your react functional component, you must import it.
+**Note:** Before, using useState hook in your react functional component, you must import it.
 
 ```
 import React, { useState } from 'react'; 
@@ -43,7 +43,7 @@ const [state, setState] = React.useState();
 Here, inside the square [] brackets,
 - state: It's the current component state/variable.
 - useState: a function to update the state value and
-- initialStateValue: it't the value of state variable value. The type of state value can be a number, string, object, array, etc.
+- initialStateValue: it's the value of state variable value. The type of state value can be a number, string, object, array, etc.
 
 
 ## Simple Example of React useState Hook
@@ -210,7 +210,7 @@ So, the output would be the following if you run your application:
 
 ## Update Object Properties or Array Elements
 
-In order to update a single state variable is very simple. If your initial state name is color, then calling the setColor method will update the value of the color variable. But, in case array or object properties, when you call the updating method like setState then then entire array or object (all the properties get updated - it creates performance issues). So, the following approach will be taken while updating a single element of an array or property of an object. 
+In order to update a single state variable is very simple. If your initial state name is color, then calling the setColor method will update the value of the color variable. But, in case array or object properties, when you call the updating method like setState then the entire array or object (all the properties get updated - it creates performance issues). So, the following approach will be taken while updating a single element from an array or array of objects.
 
 ```
 const EmployeeDetails=()=>{
@@ -261,7 +261,7 @@ After clicking the update salary button:
 
 Instead of update all the elements or properties (using the spread operator), it only updates or modify the requested property or properties. This approach avoids overwriting the entire object, ensuring that unchanged properties remain intact and prevent the accidental loss of state properties that are not directly involved in the update.
 
-So, in this post, we go thorough all the approaches how to use useState hook in our react application at the same time we also discussed how to update state using the setState built in function.
+So, in this post, we discussed all the possible approaches how to use useState hook in our react application, at the same time we also enlighten how to update state using the setState built in function.
 
 **Key things to note about useState hook in React**
 

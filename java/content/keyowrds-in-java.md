@@ -1,6 +1,6 @@
 ## Java improtant keywords and their basic uses:
  
-1. Class: Class is one kind of blueprint or template of creating objetcts in java. Class is required componet in java programming language. In java, class may contain properties(fields or states) and methods (functions). It is required to create object in order to access or execute class members (properties or methods but while they are not static)
+1. Class: Class is one kind of blueprint or template of creating objetcts in java. Class is required component in java programming language. In java, class may contain properties(fields or states) and methods (functions). It is required to create object in order to access or execute class members (properties or methods but while they are not static)
 
 2. Object: Object is an instance of class. Objects is created for executing class non-static members or initializing constructors. A class may have more than one object and in java, object is being created by class and can have their own properties or methods.
 

@@ -13,11 +13,11 @@ const callBackFunction = useCallback(
 );
 ```
 
-**Note:** **UseCallback** and **useMemo** are almost similar by theie nature. The only difference between them is to useCallback return memorized function. On the other hand useMemo returns memorized value. Both prevents rerendering the components unnecessarily.
+**Note:** **UseCallback** and **useMemo** are almost similar by their nature. The only difference between them is to useCallback return memorized function. On the other hand useMemo returns memorized value. Both prevents re-rendering the components unnecessarily.
 
 ## Example of UseCallback Hook
 
-Let's look at the following example where we have used **useCallback** hook to return a function that prevents recreation itself.
+Let's look at the following example where we have used **useCallback** hook to return a function that prevents recreation of itself.
 
 ```
 import React, { useState, useCallback } from 'react';
@@ -42,17 +42,17 @@ function Counter() {
 
 Here, increment function, we have used **useCallback** hook so that it doesn't recreate for every render (every 1 second automatically without clicking increment button) and returns memorized (previous) function.
 
-Note that, you can use **useCallback** hook when you have a function that you want to avoid recreating unless its dependencies change, particularly when passing functions down to memoized child components. But overuse it without proper consideration it can impose unnecessary complexity that hinders the performance of your application.
+Note that, you can use **useCallback** hook when you have a function that you want to avoid re-creating unless its dependencies change, particularly when passing functions down to memorized child components. But overusing it without proper consideration it can impose unnecessary complexity that hinders the performance of your application.
 
 ## Passing Function as A Prop in Child Components
 
-In React, it is a common practice to pass functions as props in child components. That allow parent components to control the behaviour of their children. 
+In React, it is a common practice to pass functions as props in child components. That allow parent component to control the behaviour of their children. 
 
-But, when passing functions as props, it is often useful to optimize performance to prevent unnecessary re-renders. In this regard, **useCallback** hook can help by memoizing the function so that it is not recreated on every render.
+But, when passing functions as props, it is often useful to optimize performance to prevent unnecessary re-renders. In this regard, **useCallback** hook can help by memorizing the function so that it is not recreated on every render.
 
 Let's see an example of passing a function as prop to child component.
 
-parent.js (Parent component)
+**parent.js** (Parent component)
 
 ```
 import React, { useState, useCallback } from 'react';
@@ -80,7 +80,7 @@ const Parent=()=>{
 export default Parent;
 ```
 
-child.js (Child Component)
+**child.js** (Child Component)
 
 ```
 import React from 'react';
@@ -101,15 +101,15 @@ export default Child;
 
 ![mpz.gif](mpz.gif)
 
-Here, in the gif file, you can see, how parent count renders only once for each click using the memorized function. It prevents rerenders. 
+Here, in the gif file, you can see, how parent count renders only once for each click using the memorized function. It prevents re-rendering. 
 
-But if you see, console.log() rendered twice for each button click, make sure you remove the react strictMode feature that intensional for development purposes.
+But if you see, console.log() rendered twice for each button click, make sure you remove the react strictMode feature that intentional for development purposes.
 
 ![alt text](image1.png)
 
 So, open **index.js** file and remove the {`<React.StrictMode />`}. Now, our function will work as expected.
 
-Note: Disabling, strictMode is not recommended because it enables many react features in development, and it will not affect in your production application. So, disabling strictMode can only be okay testing only.
+**Note:** Disabling, strictMode is not recommended because it enables many react features in development, and it will not affect in your production application. So, disabling strictMode can only be okay testing only.
 
 ```
 //force strictMode
