@@ -1,14 +1,17 @@
 {
     "posts": [
       {
+        "id": 1,
         "title": "Post 1 Title",
         "content": "This is the content for post 1."
       },
       {
+        "id": 2,
         "title": "Post 2 Title",
         "content": "This is the content for post 2."
       },
       {
+        "id": 3,
         "title": "Post 3 Title",
         "content": "This is the content for post 3."
       }
