@@ -1,0 +1,15 @@
+## 1:  The Honesty of a School Boy
+Once, a boy named Syrus was coming home from his school on foot. suddenly, he noticed a 
+bag lying on the road. He went close to it. He picked it up and got surprised to see a big 
+amount of money and other things in it. But he was not in the least interested in grabbing the contents in the money bag. He intended to search the money bag to see if there was any 
+visiting card, Fortunately, he got a card inside the pocket of the money bag. The contents of the visiting card included the address and cell phone number of the owner. Syrus called the owner of tne number. The owner felt delighted and excited to hear the news because there was an amount of Tk. 50,000 in the bag. The owner requested Syrus to carry the bag to his house. Syrus did carry the bag accordingly to the address of the owner. The owner hugged Syrus and made him his lifelong friend.
+
+## 2: Dress Does not Make a Man Great 
+All of you have heard the name of Sheikh Sa'adi. He was a great poet. Once he was invited to the court of the Sultan. He started for the court. On the way it became dark and he took shelter in a rich man's house. As he was in simple dress, the rich man could not recognize him and the people in the house showed disrespect and dishonour to him. The poet left the rich man's house in utter dismay. A few days later he went there putting on a gorgeous dress. This time, he was respected and honoured by the people of the rich man's house. They gave him rich dishes to eat. The poet did not eat the food but he began to put the food in his pocket. 
+Being surprised, the rich man asked the poet about his mysterious behaviour. 
+the poet said, "This food is for my dress, not for me. Had it been not so, I would have been 
+treated in the same manner when I was very poorly dressed." The rich man understood the matter and really sad for this. He begged forgiveness of the poet.
+
+## 3: Who is to Bell the Cat?
+
+Once upon a time, the house of a rich man was infested with rats. They were living there with great happiness and without any fear. They were having great fun and boldly moved about the house. But the inmate of the house were having great trouble. The owner bought a cat to kill the mice. The mice were in then great difficulties and they gathered together in a conference in order to find a way out. Different rats gave different suggestions, but none was found acceptable. At last, a young rat stood up and said, "If we tie a bell around the cat's neck, we'll be in a position to understand when the cat is coming to the barn and then we'll hasten into our holes. all the rats acclaimed the proposal except the experienced old one. He stood up and said, "I've no doubt in my mind that proposal is quite good, but who'll be the cat?" Hearing this, all the rats began to look at one another and felt disappointed to the highest order. Finding no solution, the rats eventually migrated to another barn.
